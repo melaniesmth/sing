@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="E{eA;ZC#8=gr$WCCfMGL" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="U/3@fmr:Seoz[}oe,=~!"><field name="i">IconNames.Pitchfork</field></block></statement></block><block type="device_forever" id="h_N`BYh06|hgLW^(Y7=v" x="227" y="22"/><block type="device_button_event" id="%)GG;OIy1)F~!.$$%lMk" x="-1" y="161"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="]![lTwP8!SD:OM5-R?t9"><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        # . # . # 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="playMelody" id="qgV,L9cSP4}5}a![AE=B"><value name="melody"><shadow type="melody_editor" id="k}X$hfo`j=.!`3d_mG3/"><field name="melody">"C D E C E C E - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="m,!=eMltC|,~P5::Scag"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="}.BeM;+X7+]^2@kz|^Ov" x="48" y="584"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="+,|W8MVpw,s@$:oon5tS"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="playMelody" id="+n(AjB[70)m+rwU{z[FK"><value name="melody"><shadow type="melody_editor" id="|.:io,GVqkdhVD0`;?jA"><field name="melody">"D E F F E D F - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="1,}(W-zUebh$`p6/rR5`"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="%f%WpxR%cc4-%UPGjn?g" x="113" y="1020"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="HsA%tE)2PQbuKM4Vr%k="><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        # . # . # 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="playMelody" id="Xp/}/CsE$ynVsJY^is0@"><value name="melody"><shadow type="melody_editor" id="4Q6PPAw.fVHwJ9f(0Byb"><field name="melody">"E F G E G E G - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="RLQZai1Mkb:1pNK#g$la"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="}z=+M5G)X?xDLQ[xCKUc" x="123" y="1414"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="B+V:$UXYu,nD$}|V~wqD"><value name="text"><shadow type="text" id="G/Aclw7J#8OOc5U?b,KC"><field name="TEXT">i love you stink</field></shadow></value><next><block type="SoundExpression_play" id="Fz:GBWnT0=y)0WksLIi/"><field name="this">soundExpression.giggle</field></block></next></block></statement></block></xml>
